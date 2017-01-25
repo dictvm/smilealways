@@ -1,7 +1,7 @@
 Amazon Smile Redirector Chrome Plugin
 ======================
 
-Chrome Extension to redirect all [www.amazon.com]() URLs to [smile.amazon.com]()
+Chrome Extension to redirect all [www.amazon.de]() URLs to [smile.amazon.de]()
 
 Installation
 ============
