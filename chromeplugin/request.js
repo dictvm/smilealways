@@ -15,7 +15,7 @@ function detectRedirect(details) {
     }
 
     var https = "https://";
-    var amazonurl = "www.amazon.com";
+    var amazonurl = "www.amazon.de";
     // ignore links with these strings in them
     var filter = "(sa-no-redirect=)"
                + "|(redirect=true)"
@@ -42,7 +42,7 @@ function detectRedirect(details) {
 }
 
 function redirectToSmile(scheme, amazonurl, url) {
-    var smileurl = "smile.amazon.com";
+    var smileurl = "smile.amazon.de";
     return {
         // redirect to amazon smile append the rest of the url
         redirectUrl : scheme + smileurl + getRelativeRedirectUrl(amazonurl, url)
